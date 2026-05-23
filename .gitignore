@@ -19,9 +19,9 @@ htmlcov/
 
 # Runtime output
 *.log
+code/*_state.json
 *.plist
 *.xlsx
-code/*_state.json
 
 # Local environment
 .env
