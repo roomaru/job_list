@@ -1,6 +1,7 @@
 # SAP ABAP Job List
 
 SAP ABAP, SAP ERP 관련 신입 채용 공고를 잡코리아와 사람인에서 수집해 엑셀 파일로 정리하는 스크립트입니다.
+Codex로 생성된 스크립트입니다.
 
 ## 구조
 
