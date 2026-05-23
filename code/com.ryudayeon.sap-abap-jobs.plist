@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ryudayeon.sap-abap-jobs</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>/Users/ryudayeon/Desktop/playground/job/code/run_daily_jobs.py</string>
+  </array>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/ryudayeon/Desktop/playground/job/code/job_update.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/ryudayeon/Desktop/playground/job/code/job_update.log</string>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/ryudayeon/Desktop/playground/job/code</string>
+</dict>
+</plist>
