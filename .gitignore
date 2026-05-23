@@ -19,6 +19,8 @@ htmlcov/
 
 # Runtime output
 *.log
+*.plist
+*.xlsx
 code/*_state.json
 
 # Local environment
@@ -30,5 +32,3 @@ code/*_state.json
 *.tmp
 *.temp
 ~$*
-
-*.xlsx
